@@ -102,6 +102,7 @@ URL : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.h
 **Execute below commands to install AWS CLI**
 
 $ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" <br/>
+$ sudo apt install zip <br/ >
 $ unzip awscliv2.zip <br/>
 $ sudo ./aws/install <br/>
 $ aws --version <br/>
