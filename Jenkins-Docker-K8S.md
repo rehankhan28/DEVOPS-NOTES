@@ -128,6 +128,7 @@ $ kubectl version --short --client <br/>
 3) Execute below commands in Jenkins Server and paste kube config file for ubuntu user to check EKS Cluster info<br/>
 	$ cd ~ <br/>
 	$ ls -la  <br/>
+ 	$ sudo mkdir .kube <br/>
 	$ sudo vi .kube/config  <br/>
 
 4) check eks nodes <br/>
